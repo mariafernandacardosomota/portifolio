@@ -1,12 +1,23 @@
+.menu{
+    background-color: black;
+    width: 100vw;
+}
 body{
-    background-color: rgb(231, 15, 15);
+    background-color: rgb(150, 140, 140);
     color:aliceblue;
+    text-decoration:underline;
+    text-align: center;
+    
 }
 
 strong{
-    color: #22d4fd
+    color: #feffff
 }
+.menu{
+    display: flex;
+    justify-content: space-around;
 
+}
 
 *{
     margin: 30;
@@ -17,7 +28,7 @@ strong{
     justify-content: space-between;
 }
 .apresentação__links__link{
-    background-color: #22d4fd;
+    background-color: #ffffff;
     width: 280px;
   text-align: center;
   border: 16px;
